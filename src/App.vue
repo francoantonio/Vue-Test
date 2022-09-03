@@ -1,17 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <CounterComponent :start="15"></CounterComponent>
-  <hr />
-  <CounterComponent></CounterComponent>
+  <Indecision />
 </template>
 <script lang="ts">
 import { defineComponent } from "vue";
-import CounterComponent from "./components/CounterComponent.vue";
+import Indecision from "./components/Indecision.vue";
 
 export default defineComponent({
   name: "App",
   components: {
-    CounterComponent,
+    Indecision,
   },
 });
 </script>
